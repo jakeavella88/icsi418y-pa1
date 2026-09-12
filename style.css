@@ -1,0 +1,42 @@
+body {
+    background-color:#c2dded;
+    font-family:'Courier New';
+}
+
+h1 {
+    text-align:center;
+    font-size:40px;
+}
+
+#create-task {
+    border: 1px solid black;
+    width: 45%;
+    padding: 10px;
+}
+
+#task-list {
+    border: 1px solid black;
+    width: 45%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.low-priority {
+    color: green;
+}
+
+.medium-priority {
+    color: orange;
+}
+
+.high-priority {
+    color: red;
+}
